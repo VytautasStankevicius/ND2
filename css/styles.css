@@ -1,0 +1,104 @@
+body {
+    margin:0;
+    font-family: 'Young Serif', serif;
+}
+
+header {
+    background-image: url(../img/ryan-hutton-Jztmx9yqjBw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 32px;
+    color:#fff;
+    text-align: center;
+    height:500px;
+    padding:200px 50px 50px 50px;
+}
+
+.header_title {
+    display:inline-block;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.header_info {
+    display:inline-block;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+main {
+    text-align: center;
+}
+
+h2 {
+    font-size:50px;
+}
+
+.hover_box {
+    display:inline-block;
+    width:1000px;
+    height:500px;
+}
+
+.hover_image {
+    display:inline-block;
+    position: relative;
+}
+
+.hover_image img{
+    margin-bottom:20px;
+}
+
+.hover_image:hover {
+    display:inline-block;
+    position:relative;
+    top:7px;
+}
+
+.hover_image_text {
+    width:100%;
+    bottom:20px;
+    color:white;
+    background-color: rgba(83, 80, 81, 0.8);
+    position: absolute;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.button_layout{
+    text-align: center;
+}
+
+.button1 {
+    border:solid;
+    border-width: 1px;
+    border-radius:40px;
+    border-color: blue;
+    padding:15px 30px 15px 30px;
+    color:blue;
+    background-color:#fff;
+    text-decoration: none;
+}
+
+.button1:hover {
+    border:solid;
+    border-width: 1px;
+    border-radius:40px;
+    border-color: blue;
+    padding:15px 30px 15px 30px;
+    color:#fff;
+    background-color:blue;
+    text-decoration: none;
+}
+
+.static_box {
+    display:inline-block;
+    width:1000px;
+    height:500px;
+    margin-top:60px;
+}
+
+.static_image {
+    display:inline-block;
+    padding:10px;
+}
